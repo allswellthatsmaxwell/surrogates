@@ -1,3 +1,4 @@
 data/
 intermediate/
 .ipynb_checkpoints/
+*.pyc
