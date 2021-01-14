@@ -184,7 +184,7 @@ def plot_scatter(dat, figsize=(16, 12)):
         pn.geom_smooth(method='lm') +
         pn.facet_wrap("var", scales='free_x') +
         pn.theme_bw() +
-        pn.theme(figure_size=figsize))
+        pn.theme(figure_size=figsize, subplots_adjust={'hspace': 0.25}))
 
 
 def plot_predictions_actual(pred_df, figsize):
@@ -208,6 +208,6 @@ def plot_predictions_residuals(pred_df, figsize):
 
 def plot_predictions(pred_df, figsize):
     actual = plot_predictions_actual(pred_df, figsize) + pn.ggtitle('actuals')
-    display(actual)
+    display(actual);
     resid = plot_predictions_residuals(pred_df, figsize) + pn.ggtitle('residuals')
-    display(resid)
+    display(resid);
