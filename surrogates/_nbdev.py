@@ -11,7 +11,16 @@ index = {"length": "ch01_problem01.ipynb",
          "plot_predictions": "ch01_problem01.ipynb",
          "wires_facet_theme": "ch01_problem01.ipynb",
          "piston": "ch01_problem02.ipynb",
-         "scale_to_range": "ch01_problem02.ipynb"}
+         "scale_to_range": "ch01_problem02.ipynb",
+         "scale_columns": "ch01_problem02.ipynb",
+         "plot_heatmap_facets": "ch01_problem02.ipynb",
+         "longify_grid": "ch01_problem02.ipynb",
+         "make_fit_dataframe": "ch01_problem02.ipynb",
+         "Modeler": "ch01_problem02.ipynb",
+         "LinearModeler": "ch01_problem02.ipynb",
+         "RFModeler": "ch01_problem02.ipynb",
+         "GPModeler": "ch01_problem02.ipynb",
+         "PistonModeler": "ch01_problem02.ipynb"}
 
 modules = ["ch01_problem01.py",
            "ch01_problem02.py"]
