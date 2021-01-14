@@ -1,4 +1,1 @@
-# nbdev template
-
-Use this template to more easily create your nbdev project.
-
+Goes through the exercises in a certain book.
